@@ -1,0 +1,13 @@
+image: fedora:latest
+
+before_script:
+  - dnf update -y
+  - dnf install -y rpm-build
+
+build_rpm:
+  stage: build
+  script:
+    - rpmbuild -ba divested-release.spec
+  artifacts:
+    paths:
+        - build/noarch/divested-release*.rpm
