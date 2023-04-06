@@ -1,6 +1,7 @@
 [divested]
 name=Divested RPM Repository
-baseurl=https://divested.dev/rpm/fedora-$releasever
+#baseurl=https://divested.dev/rpm/fedora
+metalink=https://divested.dev/rpm/fedora/metalink.metalink
 enabled=1
 metadata_expire=7d
 repo_gpgcheck=1

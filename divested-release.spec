@@ -1,5 +1,5 @@
 Name: divested-release
-Version: 20201204
+Version: 20230406
 Release: 1
 Summary: The Divested RPM repository
 License: GPLv3+
