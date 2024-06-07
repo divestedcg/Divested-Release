@@ -1,6 +1,6 @@
 Name: divested-release
-Version: 20231210
-Release: 2
+Version: 20240607
+Release: 1
 Summary: The Divested RPM repository
 License: GPLv3+
 BuildArch: noarch
