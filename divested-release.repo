@@ -9,4 +9,4 @@ type=rpm
 gpgcheck=1
 gpgkey=file:///etc/pki/rpm-gpg/RPM-GPG-KEY-divested
 skip_if_unavailable=True
-includepkgs=amd-ucode-firmware,brace,brace-background,firejail,hardened_malloc,microcode_ctl,real-ucode
+includepkgs=amd-ucode-firmware,amd-ucode-firmware-resigned,brace,brace-background,firejail,hardened_malloc,microcode_ctl,real-ucode
