@@ -8,6 +8,7 @@ A RPM repository for Divested release packages.
 Prebuilts
 ---------
 - official release: sudo dnf install https://divested.dev/rpm/fedora/divested-release-20260508-1.noarch.rpm
+- to update: sudo dnf update --refresh divested-release --setopt=divested.includepkgs=
 - Fedora via CI: https://gitlab.com/divested/divested-release/-/jobs/artifacts/master/browse?job=build_rpm
 
 Building
